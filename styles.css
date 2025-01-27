@@ -1,3 +1,14 @@
 
+header{
+    background-color: rgb(247, 247, 112);
+    display:flex;
+    align-items: center;
+    gap: 1rem;
+}
 
+.h1
+{font-family: "Lucida Console";}
 
+.h2
+{font-family: "Ariel"
+;}
