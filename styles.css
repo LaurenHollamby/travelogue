@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 
 header{
     background-color: rgb(247, 247, 112);
@@ -27,6 +31,9 @@ ul{
 }
 
 ol{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 2rem;
     font-weight: bold;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
